@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jobsearch.jobconnect.work.jobs.devimpact">
+    <!-- Include required permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/jobconnect"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/jobconnect"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+ <activity  
+android:name=".SplashActivity" 
+ android:exported="true" 
+ android:theme="@style/AppThemeno"> <intent-filter> <action android:name="android.intent.action.MAIN" /> <category android:name="android.intent.category.LAUNCHER" /> </intent-filter> 
+ </activity> 
+
+
+ <activity  
+android:name=".Jobs"
+ android:exported="false"> 
+ <meta-data android:name="android.app.lib_name" 
+ android:value="" /> 
+ 
+ </activity>
+
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+<meta-data 
+android:name="com.google.android.gms.ads.APPLICATION_ID" 
+android:value="ca-app-pub-7977505325397665~5235924936" />
+
+ <activity  
+android:name=".MainActivity" android:label="@string/app_name" android:theme="@style/AppTheme.NoActionBar" />
+
+ <activity
+     android:name=".activities.HomeFragment"
+     android:exported="false"
+     tools:ignore="Instantiatable">
+ <meta-data android:name="android.app.lib_name" 
+ android:value="" /> 
+ 
+ </activity> 
+
+
+ <activity  
+android:name=".activities.HomeViewModel" 
+ android:exported="false"
+     tools:ignore="Instantiatable">
+ <meta-data android:name="android.app.lib_name" 
+ android:value="" /> 
+ 
+ </activity> 
+
+
+<activity 
+  
+android:name=".activities.JobConnectAdapter"
+ android:exported="false"
+     tools:ignore="Instantiatable">
+ <meta-data android:name="android.app.lib_name" 
+ android:value="" /> 
+ 
+ </activity> 
+
+
+<activity 
+  
+android:name=".activities.JobConnectFragment"
+ android:exported="false"
+     tools:ignore="Instantiatable">
+ <meta-data android:name="android.app.lib_name" 
+ android:value="" /> 
+ 
+ </activity> 
+
+
+<activity 
+  android:name=".activities.JobConnectInfo"
+ android:exported="false" 
+
+     tools:ignore="Instantiatable">  </activity>
+
+ 
+<activity 
+  android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.MainActivityContract" 
+ android:exported="false" 
+ tools:ignore="MissingClass" /> 
+<activity 
+  android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.MainActivityFullTime" 
+ android:exported="false" 
+ tools:ignore="MissingClass" /> 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneAlbuquerque" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneArlington" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneAtlanta" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneAustin" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneBaltimore" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneBoston" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneCharleston" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneCharlotte" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneChicago" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneColoradoSprings" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneColumbus" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneDallas" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneDenver" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneDetroit" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneElPaso" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneFortWorth" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneFresno" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneHonolulu" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneHouston" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneIndianapolis" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneJacksonville" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneJerseyCity" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneKansasCity" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneLasVegas" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneLosAngeles" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneLouisville" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneMemphis" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneMesa" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneMiami" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneMilwaukee" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneMinneapolis" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneNashville" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneNewOrleans" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneNewYork" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneOklahomaCity" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneOmaha" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOnePhiladelphia" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOnePhoenix" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneRaleigh" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneSacramento" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneSaltLakeCity" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneSanAntonio" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneSanDiego" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneSanFrancisco" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneSanJose" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneSeattle" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneTucson" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneTulsa" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneVirginiaBeach" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneWashingtonDC" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.one.CityOneWichita" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoAlbuquerque" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoArlington" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoAtlanta" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoAustin" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoBaltimore" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoBoston" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoCharleston" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoCharlotte" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoChicago" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoColoradoSprings" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoColumbus" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoDallas" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoDenver" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoDetroit" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoElPaso" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoFortWorth" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoFresno" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoHonolulu" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoHouston" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoIndianapolis" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoJacksonville" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoJerseyCity" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoKansasCity" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoLasVegas" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoLosAngeles" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoLouisville" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoMemphis" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoMesa" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoMiami" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoMilwaukee" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoMinneapolis" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoNashville" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoNewOrleans" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoNewYork" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoOklahomaCity" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoOmaha" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoPhiladelphia" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoPhoenix" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoRaleigh" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoSacramento" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoSaltLakeCity" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoSanAntonio" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoSanDiego" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoSanFrancisco" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoSanJose" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoSeattle" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoTucson" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoTulsa" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoVirginiaBeach" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoWashingtonDC" android:exported="false" tools:ignore="MissingClass" /> 
+<activity android:name="com.jobsearch.jobconnect.work.jobs.devimpact.activities.jobs.two.CityTwoWichita" android:exported="false" tools:ignore="MissingClass" /> 
+
+
+ 
+ 
+    </application>
+
+</manifest>

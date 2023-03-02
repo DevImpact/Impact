@@ -1,0 +1,881 @@
+{
+  "project_info": {
+    "project_number": "648758478774",
+    "firebase_url": "https://jobs-1d67f-default-rtdb.firebaseio.com",
+    "project_id": "jobs-1d67f",
+    "storage_bucket": "jobs-1d67f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:bc7c6071b91718bbd42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobapp.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:7d1b35dbefb1c3dbd42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobapplication.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:afd1c5f80dacdda3d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobapps.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:ef90d930e8819627d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobbank.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:42786a68a2aa49c0d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobbenefits.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:edb2b89b0ccbae79d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobbible.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:0ccac911639df7b3d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobboards.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:c150fcafafd1473ad42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobbox.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:40a307d639f2e534d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobburnout.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:ac06c8ba0373bde8d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobcard.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:f5f3173313fbcd27d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobcareers.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:9cfa6885ae7df758d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobcente.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:b1a07b747dd86c66d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobconnect.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:07f224f597ad74d9d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobdeals.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:d0a39286286d3effd42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobdescription.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:b053aa28da479751d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobdiscrimination.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:e732d9bc10d7a351d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobdockery.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:57b3d68cb5c08024d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobduties.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:fe8a2e025c8f144dd42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobemployment.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:1496efd431ad56acd42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobengine.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:e5698db872a2be43d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobenlargement.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:64ace06437e85519d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobenrichment.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:b6f152fcd9ea452cd42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobevaluation.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:8b0c7c8c5a198489d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobexperience.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:fe1aefdcd569afd4d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobfair.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:cf9d74ae28390354d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobfamily.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:e8ab98f4cf12bc5bd42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobfinder.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:1a4bffc82c8f77a9d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobfurlough.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:8a52e9c913913470d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobgames.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648758478774:android:158bc0238bbd90a6d42317",
+        "android_client_info": {
+          "package_name": "com.jobsearch.jobgateway.work.jobs.devimpact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9QFL5OO38Czw9chbw0sPrFHZHFePblMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648758478774-aohj2a4n79lea10uskibjrl3q6jjmksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

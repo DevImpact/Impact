@@ -1,0 +1,74 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Job Connect</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="name" />
+    <string name="fund" />
+    <string name="unit" />
+    <string name="check_the_network">Make sure to connect to the network</string>
+    <string name="loading">Loading</string>
+    <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+    <string name="id_application">ca-app-pub-7977505325397665~5235924936</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7977505325397665/8983598253</string>
+    <string name="interstitiel_ad_unit_id">ca-app-pub-7977505325397665/1689477886</string>
+
+
+
+    <string name="botton_clicker">Click Here</string>
+
+    <!--City Name -->
+  <string name="text_1">Albuquerque</string>
+<string name="text_2">Arlington</string>
+<string name="text_3">Atlanta</string>
+<string name="text_4">Austin</string>
+<string name="text_5">Baltimore</string>
+<string name="text_6">Boston</string>
+<string name="text_7">Charleston</string>
+<string name="text_8">Charlotte</string>
+<string name="text_9">Chicago</string>
+<string name="text_10">ColoradoSprings</string>
+<string name="text_11">Columbus</string>
+<string name="text_12">Dallas</string>
+<string name="text_13">Denver</string>
+<string name="text_14">Detroit</string>
+<string name="text_15">ElPaso</string>
+<string name="text_16">FortWorth</string>
+<string name="text_17">Fresno</string>
+<string name="text_18">Honolulu</string>
+<string name="text_19">Houston</string>
+<string name="text_20">Indianapolis</string>
+<string name="text_21">Jacksonville</string>
+<string name="text_22">JerseyCity</string>
+<string name="text_23">KansasCity</string>
+<string name="text_24">LasVegas</string>
+<string name="text_25">LosAngeles</string>
+<string name="text_26">Louisville</string>
+<string name="text_27">Memphis</string>
+<string name="text_28">Mesa</string>
+<string name="text_29">Miami</string>
+<string name="text_30">Milwaukee</string>
+<string name="text_31">Minneapolis</string>
+<string name="text_32">Nashville</string>
+<string name="text_33">NewOrleans</string>
+<string name="text_34">NewYork</string>
+<string name="text_35">OklahomaCity</string>
+<string name="text_36">Omaha</string>
+<string name="text_37">Philadelphia</string>
+<string name="text_38">Phoenix</string>
+<string name="text_39">Raleigh</string>
+<string name="text_40">Sacramento</string>
+<string name="text_41">SaltLakeCity</string>
+<string name="text_42">SanAntonio</string>
+<string name="text_43">SanDiego</string>
+<string name="text_44">SanFrancisco</string>
+<string name="text_45">SanJose</string>
+<string name="text_46">Seattle</string>
+<string name="text_47">Tucson</string>
+<string name="text_48">Tulsa</string>
+<string name="text_49">VirginiaBeach</string>
+<string name="text_50">WashingtonDC</string>
+<string name="text_51">Wichita</string>
+
+</resources>

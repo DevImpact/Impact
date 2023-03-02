@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:ads="http://schemas.android.com/apk/res-auto"
+>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="5dp"
+        android:rowCount="2">
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_1"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_2"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_3"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_4"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_5"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_6"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_7"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_8"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_9"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_10"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_11"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_12"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_13"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_14"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_15"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_16"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_17"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_18"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_19"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_20"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_21"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_22"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_23"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_24"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_25"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                tools:ignore="TooManyViews" />
+
+
+            <Button
+                android:id="@+id/city25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_26"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_27"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_28"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_29"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_30"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_31"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_32"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_33"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_34"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_35"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_36"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_37"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_38"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_39"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_40"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_41"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_42"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_43"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_44"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_45"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_46"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_47"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_48"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_49"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_50"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+   <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="2dp"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_51"
+                android:fontFamily="@font/box"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+
+
+            <Button
+                android:id="@+id/city51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorblack"
+				android:fontFamily="behaviour"
+                android:layout_gravity="center"
+                android:text="@string/botton_clicker"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="ObsoleteLayoutParam" />
+        </LinearLayout>
+ 
+
+    </GridLayout>
+</LinearLayout>
+</ScrollView>

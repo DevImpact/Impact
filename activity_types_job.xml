@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id" />
+
+
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="2dp"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/tof1"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/fulltime"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        tools:ignore="ContentDescription" />
+
+                    <Button
+                        android:id="@+id/usajobvite1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/colorblack"
+						android:fontFamily="behaviour"						
+                        android:layout_gravity="center"
+                        android:text="@string/botton_clicker"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:ignore="ObsoleteLayoutParam" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="2dp"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/tof2"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/parttime"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        tools:ignore="ContentDescription" />
+
+
+                    <Button
+                        android:id="@+id/usajobvite2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/colorblack"
+						android:fontFamily="behaviour"
+                        android:layout_gravity="center"
+                        android:text="@string/botton_clicker"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        tools:ignore="ObsoleteLayoutParam" />
+                </LinearLayout>
+
+     </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

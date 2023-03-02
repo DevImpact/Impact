@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Black"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_v"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="26sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Job Connect"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txt_v"
+        android:layout_centerInParent="true"
+        android:elevation="30dp"
+        android:src="@drawable/jobconnect"
+        tools:ignore="ContentDescription" />
+
+
+
+</RelativeLayout>
